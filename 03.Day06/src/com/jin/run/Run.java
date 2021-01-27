@@ -1,7 +1,10 @@
 package com.jin.run;
 
+import com.jin.game.BaskinRobbins;
 import com.jin.game.CoinGame;
+import com.jin.game.Dice;
 import com.jin.game.RSP;
+import com.jin.game.UpAndDown;
 import com.jin.random.RandomTest;
 import com.jin.star.JustStar;
 
@@ -31,8 +34,16 @@ public class Run {
 //		cg.coinGame();
 		
 		RSP rsp = new RSP();
-		rsp.rsp();
+//		rsp.rsp();
 		
+		UpAndDown uad = new UpAndDown();
+//		uad.upAndDown();
+		
+		BaskinRobbins br = new BaskinRobbins();
+//		br.baskinRobbins();
+		
+		Dice d = new Dice();
+		d.dice();
 	}
 
 }
