@@ -34,4 +34,15 @@ public class RandomTest {
 			System.out.println("·£´ý ¼ö : "+num);
 		}
 	}
+	
+	public void lotto() {
+		Random r = new Random();
+		
+		System.out.print(r.nextInt(10)+" ");
+		System.out.print(r.nextInt(10)+" ");
+		System.out.print(r.nextInt(10)+" ");
+		System.out.print(r.nextInt(10)+" ");
+		System.out.print(r.nextInt(10)+" ");
+		System.out.print(r.nextInt(10)+" ");
+	}
 }

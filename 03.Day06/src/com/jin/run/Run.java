@@ -27,6 +27,7 @@ public class Run {
 		
 		RandomTest random = new RandomTest();
 		
+		random.lotto();
 //		random.randomTest1();
 		
 		CoinGame cg = new CoinGame();
@@ -43,7 +44,8 @@ public class Run {
 //		br.baskinRobbins();
 		
 		Dice d = new Dice();
-		d.dice();
+//		d.dice();
+		
 	}
 
 }
